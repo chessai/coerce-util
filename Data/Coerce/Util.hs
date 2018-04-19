@@ -5,6 +5,8 @@ module Data.Coerce.Util
   , CoerceBinary
   , WrapBinary
   , WrappedBinary
+  , (#.)
+  , (.#)
   ) where
 
 import Data.Coerce
