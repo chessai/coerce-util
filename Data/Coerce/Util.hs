@@ -1,12 +1,18 @@
 module Data.Coerce.Util
-  ( showsNewtype
-  , readsNewtype
+  (
+    -- * Function coercion utils
+    (#.)
+  , (.#)
+
+    -- * Shorten coercion type signatures
   , Binary
   , CoerceBinary
   , WrapBinary
   , WrappedBinary
-  , (#.)
-  , (.#)
+    
+    -- * Newtype utils 
+  , showsNewtype
+  , readsNewtype
   ) where
 
 import Data.Coerce
