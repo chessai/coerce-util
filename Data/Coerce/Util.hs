@@ -79,7 +79,7 @@ readsNewtype cons acc = r
       lift $ expect (Ident acc)
       Punc "=" <- lexP
       x <- reset (readS_to_Prec rp)
-      Punc "{" <- lexP
+      Punc "}" <- lexP
       pure (coerce x)
 {-# INLINE readsNewtype #-}
 
